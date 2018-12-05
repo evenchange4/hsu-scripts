@@ -8,6 +8,7 @@
   },
   "sideEffects": false,
   "files": [
+    "bin",
     "es",
     "lib",
     "babel.js"
@@ -20,7 +21,6 @@
   "dependencies": {
     "@babel/cli": "7.2.0",
     "@babel/core": "7.2.0",
-    "@babel/node": "^7.2.0",
     "@babel/plugin-proposal-class-properties": "7.2.1",
     "@babel/plugin-transform-runtime": "7.2.0",
     "@babel/preset-env": "7.2.0",
@@ -52,5 +52,8 @@
     "github-changes": "1.1.2",
     "rimraf": "^2.6.2",
     "yargs": "12.0.5"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.2.0"
   }
 }
