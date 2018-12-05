@@ -11,7 +11,8 @@
     "bin",
     "es",
     "lib",
-    "babel.js"
+    "babel.js",
+    ".babelrc"
   ],
   "license": "MIT",
   "scripts": {
