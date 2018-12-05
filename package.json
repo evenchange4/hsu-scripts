@@ -59,12 +59,25 @@
     "eslint": "5.9.0",
     "flow-bin": "0.87.0",
     "github-changes": "1.1.2",
+    "husky": "1.2.0",
+    "lint-staged": "8.1.0",
     "prettier": "1.15.3"
   },
   "eslintConfig": {
     "extends": [
       "./eslint.js"
     ]
+  },
+  "lint-staged": {
+    "*.{js,json,md,css,yaml,yml}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "description": "CLI toolbox for common scripts for npm libraries.",
   "author": "Michael Hsu <evenchange4@gmail.com>",

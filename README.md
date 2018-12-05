@@ -92,7 +92,7 @@ Options:
 Examples:
   hsu-scripts src           Simple example
   hsu-scripts src -e 'esm'  Custom es module directory
-  hsu-scripts src -e 'cjs'  Custom commonjs module directory
+  hsu-scripts src -c 'cjs'  Custom commonjs module directory
 
 For more information go to https://github.com/evenchange4/hsu-scripts
 ```
