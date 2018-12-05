@@ -1,7 +1,8 @@
 ## Change Log
 
-### upcoming (2018/12/05 07:07 +00:00)
-- [af533b4](https://github.com/evenchange4/hsu-scripts/commit/af533b43ec1c5e7e56e12ac452b238e29880a571) chore: setup travis & docs (@evenchange4)
+### v0.1.0 (2018/12/05 07:11 +00:00)
+- [d96084f](https://github.com/evenchange4/hsu-scripts/commit/d96084fe61aec611246f3da1fa828396fb592d51) 0.1.0 (@evenchange4)
+- [c0ac92e](https://github.com/evenchange4/hsu-scripts/commit/c0ac92ef15cd2615fdaa1e2c87f4ad6aa04820e4) update docs (+4 squashed commits) (@evenchange4)
 
 ### v0.0.4 (2018/12/05 06:13 +00:00)
 - [3716c2c](https://github.com/evenchange4/hsu-scripts/commit/3716c2cc82b9d190128dda847fc925079212e7f1) 0.0.4 (@evenchange4)
