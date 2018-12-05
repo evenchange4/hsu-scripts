@@ -45,8 +45,8 @@ const getCliArguments = (): CliArguments => {
     .alias('v', 'version')
     .locale('en')
     .example(`$0 src`, 'Simple example')
-    .example(`$0 src -e 'esm'`, 'Specify es module directory')
-    .example(`$0 src -e 'cjs'`, 'Specify commonjs module directory')
+    .example(`$0 src -e 'esm'`, 'Custom es module directory')
+    .example(`$0 src -e 'cjs'`, 'Custom commonjs module directory')
     .epilogue(
       'For more information go to https://github.com/evenchange4/hsu-scripts',
     )

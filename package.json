@@ -16,12 +16,12 @@
     "eslint.js",
     "prettier.config.js"
   ],
-  "license": "MIT",
   "scripts": {
     "build": "NODE_ENV='cjs' babel-node src/bin.js src",
     "flow": "flow",
     "eslint": "eslint ./",
-    "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'"
+    "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'",
+    "changelog": "github-changes -o evenchange4 -r hsu-scripts -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
   },
   "dependencies": {
     "@babel/cli": "^7.2.0",
@@ -50,21 +50,32 @@
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "execa": "^1.0.0",
-    "flow-bin": "^0.87.0",
     "flow-copy-source": "^2.0.2",
-    "flow-coverage-report": "^0.6.0",
-    "github-changes": "^1.1.2",
     "rimraf": "^2.6.2",
     "yargs": "^12.0.5"
   },
   "devDependencies": {
     "@babel/node": "7.2.0",
     "eslint": "5.9.0",
+    "flow-bin": "0.87.0",
+    "github-changes": "1.1.2",
     "prettier": "1.15.3"
   },
   "eslintConfig": {
     "extends": [
       "./eslint.js"
     ]
+  },
+  "description": "CLI toolbox for common scripts for npm libraries.",
+  "author": "Michael Hsu <evenchange4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evenchange4/hsu-scripts/issues",
+    "email": "evenchange4@gmail.com"
+  },
+  "homepage": "https://github.com/evenchange4/hsu-scripts#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evenchange4/hsu-scripts.git"
   }
 }
