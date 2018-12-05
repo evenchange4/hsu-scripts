@@ -1,6 +1,4 @@
 // @flow
-import execa from 'execa';
-import chalk from 'chalk';
 import exec from './exec';
 import { type CliArguments } from './type.flow';
 

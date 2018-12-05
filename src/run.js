@@ -1,5 +1,4 @@
 // @flow
-import chalk from 'chalk';
 import {
   babelCJS,
   babelESM,
@@ -19,7 +18,7 @@ const run = async () => {
     await flowCJS({ pattern, esDir, cjsDir, ignore });
     await flowESM({ pattern, esDir, cjsDir, ignore });
   } catch (error) {
-    console.error(error);
+    console.error(error); // eslint-disable-line
     process.exit(1);
   }
 };
