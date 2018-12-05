@@ -82,17 +82,18 @@ Usage: hsu-scripts <pattern> [options]
 <pattern> Glob pattern to specify files.
 
 Options:
-  -e, --es-dir   Output es module directory.            [string] [default: "es"]
-  -c, --cjs-dir  Output commonjs module directory.     [string] [default: "lib"]
+  --es-dir       Output es module directory.            [string] [default: "es"]
+  --cjs-dir      Output commonjs module directory.     [string] [default: "lib"]
   -i, --ignore   The list of glob paths to **not** compile
                [array] [default: ["__tests__","**/*.test.js","**/*.example.js"]]
   -h, --help     Show help                                             [boolean]
   -v, --version  Show version number                                   [boolean]
 
 Examples:
-  hsu-scripts src           Simple example
-  hsu-scripts src -e 'esm'  Custom es module directory
-  hsu-scripts src -c 'cjs'  Custom commonjs module directory
+  hsu-scripts src                                Simple example
+  hsu-scripts src --es-dir esm                   Custom es module directory
+  hsu-scripts src --cjs-dir 'cjs'                Custom commonjs module directory
+  hsu-scripts src -i '__specs__' '**/*.spec.js'
 
 For more information go to https://github.com/evenchange4/hsu-scripts
 ```

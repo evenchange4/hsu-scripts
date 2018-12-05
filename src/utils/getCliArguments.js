@@ -19,34 +19,32 @@ const getCliArguments = (): CliArguments => {
     )
     .demandCommand(1, 1, 'Error: Missing <pattern>')
     .strict()
-    .option('e', {
-      alias: 'es-dir',
+    .option('es-dir', {
       describe: `Output es module directory.`,
       nargs: 1,
       type: 'string',
+      default: DEFAULT_ES_DIR,
     })
-    .default('e', DEFAULT_ES_DIR)
-    .option('c', {
-      alias: 'cjs-dir',
+    .option('cjs-dir', {
       describe: `Output commonjs module directory.`,
       nargs: 1,
       type: 'string',
+      default: DEFAULT_CJS_DIR,
     })
-    .default('c', DEFAULT_CJS_DIR)
     .option('i', {
       alias: 'ignore',
       describe: `The list of glob paths to **not** compile`,
-      nargs: 1,
       type: 'array',
+      default: DEFAULT_IGNORE,
     })
-    .default('i', DEFAULT_IGNORE)
     .alias('h', 'help')
     .version(version)
     .alias('v', 'version')
     .locale('en')
     .example(`$0 src`, 'Simple example')
-    .example(`$0 src -e 'esm'`, 'Custom es module directory')
-    .example(`$0 src -c 'cjs'`, 'Custom commonjs module directory')
+    .example(`$0 src --es-dir esm`, 'Custom es module directory')
+    .example(`$0 src --cjs-dir 'cjs'`, 'Custom commonjs module directory')
+    .example(`$0 src -i '__specs__' '**/*.spec.js'`)
     .epilogue(
       'For more information go to https://github.com/evenchange4/hsu-scripts',
     )
