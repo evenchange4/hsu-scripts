@@ -9,16 +9,18 @@
   "sideEffects": false,
   "files": [
     "es",
-    "lib"
+    "lib",
+    "babel.js"
   ],
   "license": "MIT",
   "scripts": {
-    "build": "NODE_ENV='cjs' babel src --out-dir lib --ignore '__tests__','src/**/*.test.js','src/**/*.example.js'",
+    "build": "NODE_ENV='cjs' babel-node src/bin.js src",
     "flow": "flow"
   },
   "dependencies": {
     "@babel/cli": "7.2.0",
     "@babel/core": "7.2.0",
+    "@babel/node": "^7.2.0",
     "@babel/plugin-proposal-class-properties": "7.2.1",
     "@babel/plugin-transform-runtime": "7.2.0",
     "@babel/preset-env": "7.2.0",
