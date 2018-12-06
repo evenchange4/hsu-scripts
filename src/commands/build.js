@@ -19,7 +19,7 @@ const build = (): BuildArguments => {
     .usage(
       `Usage: ${chalk.green(
         '$0',
-      )} <pattern> [options]\n<pattern>\t Glob pattern to specify files.`,
+      )} build <pattern> [options]\n<pattern>\t Glob pattern to specify files.`,
     )
     .demandCommand(2, 2, 'Error: Missing <pattern>')
     .strict()
@@ -42,10 +42,10 @@ const build = (): BuildArguments => {
         default: DEFAULT_IGNORE,
       },
     })
-    .example(`$0 src`, 'Simple example')
-    .example(`$0 src --es-dir esm`, 'Custom es module directory')
-    .example(`$0 src --cjs-dir 'cjs'`, 'Custom commonjs module directory')
-    .example(`$0 src -i '__specs__' '**/*.spec.js'`)
+    .example(`$0 build src`, 'Simple example')
+    .example(`$0 build src --es-dir esm`, 'Custom es module directory')
+    .example(`$0 build src --cjs-dir 'cjs'`, 'Custom commonjs module directory')
+    .example(`$0 build src -i '__specs__' '**/*.spec.js'`)
     .alias('h', 'help')
     .version(version)
     .alias('v', 'version')

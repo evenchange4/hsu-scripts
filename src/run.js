@@ -1,9 +1,16 @@
 // @flow
-import { babelCJS, babelESM, clean, copyFlowCJS, copyFlowESM } from './index';
-import { build, help } from './commands/index';
+import { build, flow, help } from './commands/index';
+import {
+  babelCJS,
+  babelESM,
+  clean,
+  copyFlowCJS,
+  copyFlowESM,
+  flowCoverage,
+} from './index';
 
 const run = async () => {
-  const subCommand = process.argv[2];
+  const subCommand: ?string = process.argv[2];
 
   try {
     switch (subCommand) {
@@ -14,6 +21,11 @@ const run = async () => {
         await babelESM(cliArguments);
         await copyFlowCJS(cliArguments);
         await copyFlowESM(cliArguments);
+        break;
+      }
+      case 'flow': {
+        const cliArguments = flow();
+        await flowCoverage(cliArguments);
         break;
       }
 

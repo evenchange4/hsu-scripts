@@ -7,9 +7,9 @@ const copyFlowESM = ({
   esDir,
   ignore,
 }: BuildArguments): Promise<void> => {
-  const shell = `flow-copy-source ${ignore
-    .map(i => `-i ${i}`)
-    .join(' ')} ${pattern} ${esDir}`;
+  const shell = `flow-copy-source \
+    ${ignore.map(i => `-i ${i}`).join(' ')} \
+    ${pattern} ${esDir}`;
 
   return exec(shell);
 };

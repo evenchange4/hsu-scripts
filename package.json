@@ -20,7 +20,7 @@
     "build": "NODE_ENV='cjs' babel-node src/bin.js build src",
     "test": "NODE_ENV='cjs' babel-node src/bin.js src --es-dir esm -i '__specs__' '**/*.spec.js' '**/*.example.js' --cjs-dir 'cjs2'",
     "help": "NODE_ENV='cjs' babel-node src/bin.js",
-    "flow": "flow",
+    "flow": "NODE_ENV='cjs' babel-node src/bin.js flow --threshold 82",
     "eslint": "eslint ./",
     "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'",
     "changelog": "github-changes -o evenchange4 -r hsu-scripts -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
@@ -53,6 +53,7 @@
     "eslint-plugin-react": "^7.11.1",
     "execa": "^1.0.0",
     "flow-copy-source": "^2.0.2",
+    "flow-coverage-report": "^0.6.0",
     "rimraf": "^2.6.2",
     "yargs": "^12.0.5"
   },

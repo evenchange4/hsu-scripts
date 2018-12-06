@@ -10,9 +10,11 @@ const babelESM = ({
   esDir,
   ignore,
 }: BuildArguments): Promise<void> => {
-  const shell = `NODE_ENV='es' babel ${pattern} --no-babelrc --config-file ${babelrcPath} --out-dir ${esDir} --ignore ${ignore.join(
-    ',',
-  )}`;
+  const shell = `NODE_ENV='es' babel ${pattern} \
+    --no-babelrc \
+    --config-file ${babelrcPath} \
+    --out-dir ${esDir} \
+    --ignore ${ignore.join(',')}`;
 
   return exec(shell);
 };

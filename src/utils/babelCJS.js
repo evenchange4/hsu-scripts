@@ -10,9 +10,11 @@ const babelCJS = ({
   cjsDir,
   ignore,
 }: BuildArguments): Promise<void> => {
-  const shell = `NODE_ENV='cjs' babel ${pattern} --no-babelrc --config-file ${babelrcPath} --out-dir ${cjsDir} --ignore ${ignore.join(
-    ',',
-  )}`;
+  const shell = `NODE_ENV='cjs' babel ${pattern} \
+    --no-babelrc \
+    --config-file ${babelrcPath} \
+    --out-dir ${cjsDir} \
+    --ignore ${ignore.join(',')}`;
 
   return exec(shell);
 };

@@ -11,6 +11,10 @@ const help = () => {
       command: chalk.green('build'),
       desc: 'The babel build command.',
     })
+    .command({
+      command: chalk.green('flow'),
+      desc: 'The flow-coverage-report command.',
+    })
     .alias('h', 'help')
     .version(version)
     .alias('v', 'version')
