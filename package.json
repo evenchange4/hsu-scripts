@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "build": "NODE_ENV='cjs' babel-node src/bin.js build src",
-    "test": "NODE_ENV='cjs' babel-node src/bin.js src --es-dir esm -i '__specs__' '**/*.spec.js' '**/*.example.js' --cjs-dir 'cjs2'",
+    "test": "NODE_ENV='cjs' babel-node src/bin.js build src --es-dir esm --ignore '__specs__' '**/*.spec.js' '**/*.example.js' --cjs-dir 'cjs2'",
     "help": "NODE_ENV='cjs' babel-node src/bin.js",
     "flow": "NODE_ENV='cjs' babel-node src/bin.js flow --threshold 82",
     "eslint": "eslint ./",

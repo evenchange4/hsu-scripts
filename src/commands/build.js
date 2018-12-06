@@ -20,7 +20,7 @@ const build = (): BuildArguments => {
         '$0',
       )} build <pattern> [options]\n<pattern>\t Glob pattern to specify files.`,
     )
-    .demandCommand(2, 2, 'Error: Missing <pattern>')
+    .demandCommand(2, 'Error: Missing <pattern>')
     .strict()
     .options({
       'es-dir': {
