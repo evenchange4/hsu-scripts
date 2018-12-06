@@ -9,11 +9,10 @@ import {
   DEFAULT_THRESHOLD,
 } from '../utils/constants';
 import { type FlowArguments } from '../utils/type.flow';
-import { version } from '../../package.json';
 
 const build = (): FlowArguments => {
   const { concurrentFiles, includeGlob, excludeGlob, type, threshold } = yargs
-    .usage(`Usage: ${chalk.green('$0')} flow [options]\n`)
+    .usage(`Usage: ${chalk.green('$0')} flow [options]`)
     .strict()
     .options({
       'concurrent-files': {
@@ -42,8 +41,6 @@ const build = (): FlowArguments => {
     .example(`$0 flow`, 'Simple example')
     .example(`$0 flow --threshold 75`, 'Custom threshold value')
     .alias('h', 'help')
-    .version(version)
-    .alias('v', 'version')
     .locale('en')
     .epilogue(
       'For more information go to https://github.com/rpl/flow-coverage-report',

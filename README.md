@@ -13,7 +13,7 @@
 ## Install
 
 ```bash
-$ yarn install hsu-scripts eslint prettier --dev
+$ yarn install hsu-scripts flow eslint prettier --dev
 ```
 
 ## Setup configs
@@ -46,56 +46,113 @@ module.exports = config;
 // package.json
 {
   "scripts": {
-    "build": "hsu-scripts src",
-    "test": "NODE_ENV='test' jest --coverage",
-    "test:watch": "npm run test -- --watch",
+    "build": "hsu-scripts build src",
+    "test": "NODE_ENV='test' jest",
     "eslint": "eslint ./",
+    "flow": "hsu-scripts flow --threshold 75",
     "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'"
   }
 }
 ```
 
+### Build
+
+```bash
+$ hsu-scripts build src
+```
+
+<details>
+<summary>logs</summary>
+
 ```bash
 $ npm run build
 
-> hsu-scripts src
+> hsu-scripts build src
+
 > rimraf es lib
-> NODE_ENV='cjs' babel src --no-babelrc --config-file /hsu-scripts/.babelrc --out-dir lib --ignore __tests__,**/*.test.js,**/*.example.js
-Successfully compiled 13 files with Babel.
+> Done
 
-> NODE_ENV='es' babel src --no-babelrc --config-file /hsu-scripts/.babelrc --out-dir es --ignore __tests__,**/*.test.js,**/*.example.js
-Successfully compiled 13 files with Babel.
+> NODE_ENV='cjs' babel src --no-babelrc --config-file /hsu-scripts/.babelrc --out-dir lib --ignore **tests**,**/\*.test.js,**/\*.example.js
+> Successfully compiled 13 files with Babel.
 
-> flow-copy-source -i __tests__ -i **/*.test.js -i **/*.example.js src lib
+> NODE_ENV='es' babel src --no-babelrc --config-file /hsu-scripts/.babelrc --out-dir es --ignore **tests**,**/\*.test.js,**/\*.example.js
+> Successfully compiled 13 files with Babel.
 
+> flow-copy-source -i **tests** -i **/\*.test.js -i **/\*.example.js src lib
+> Done
 
-> flow-copy-source -i __tests__ -i **/*.test.js -i **/*.example.js src es
+> flow-copy-source -i **tests** -i **/\*.test.js -i **/\*.example.js src es
+> Done
+```
 
+<details>
+
+### Flow
+
+```bash
+$ npm run flow
 ```
 
 ## API
 
-```bash
-> hsu-scripts -h
+### `hsu-scripts -h`
 
-Usage: hsu-scripts <pattern> [options]
-<pattern> Glob pattern to specify files.
+```bash
+hsu-scripts <command>
+
+Commands:
+  hsu-scripts build  The babel build command.
+  hsu-scripts flow   The flow-coverage-report command.
 
 Options:
-  --es-dir       Output es module directory.            [string] [default: "es"]
-  --cjs-dir      Output commonjs module directory.     [string] [default: "lib"]
-  -i, --ignore   The list of glob paths to **not** compile
-               [array] [default: ["__tests__","**/*.test.js","**/*.example.js"]]
   -h, --help     Show help                                             [boolean]
   -v, --version  Show version number                                   [boolean]
 
-Examples:
-  hsu-scripts src                                Simple example
-  hsu-scripts src --es-dir esm                   Custom es module directory
-  hsu-scripts src --cjs-dir 'cjs'                Custom commonjs module directory
-  hsu-scripts src -i '__specs__' '**/*.spec.js'
-
 For more information go to https://github.com/evenchange4/hsu-scripts
+```
+
+### `hsu-scripts build -h`
+
+```bash
+Usage: hsu-scripts build <pattern> [options]
+<pattern> Glob pattern to specify files.
+
+Options:
+  --version   Show version number                                      [boolean]
+  --es-dir    Output es module directory.               [string] [default: "es"]
+  --cjs-dir   Output commonjs module directory.        [string] [default: "lib"]
+  --ignore    The list of glob paths to **not** compile
+               [array] [default: ["__tests__","**/*.test.js","**/*.example.js"]]
+  -h, --help  Show help                                                [boolean]
+
+Examples:
+  hsu-scripts build src                          Simple example
+  hsu-scripts build src --es-dir esm             Custom es module directory
+  hsu-scripts build src --cjs-dir 'cjs'          Custom commonjs module directory
+  hsu-scripts build src -i '__specs__' '**/*.spec.js'
+```
+
+### `hsu-scripts flow -h`
+
+```bash
+Usage: hsu-scripts flow [options]
+
+Options:
+  --version           Show version number                              [boolean]
+  --concurrent-files                                       [number] [default: 5]
+  --include-glob                                  [array] [default: ["**/*.js"]]
+  --exclude-glob                                               [array] [default:
+  ["node_modules/**","public/**",".next/**","coverage/**","storybook-static/**",
+                                              "flow-typed/**","lib/**","es/**"]]
+  --type                                             [array] [default: ["text"]]
+  --threshold                                             [number] [default: 90]
+  -h, --help          Show help                                        [boolean]
+
+Examples:
+  hsu-scripts flow                 Simple example
+  hsu-scripts flow --threshold 75  Custom threshold value
+
+For more information go to https://github.com/rpl/flow-coverage-report
 ```
 
 ## Development
@@ -110,13 +167,13 @@ $ yarn install --pure-lockfile
 
 ## Test
 
-Use tools to build itself.
+Use tools to build/flow itself.
 
 ```bash
 $ yarn run build
+$ yarn run flow
 $ yarn run format
 $ yarn run eslint
-$ yarn run flow
 ```
 
 ## Example library
