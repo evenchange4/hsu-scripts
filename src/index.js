@@ -1,6 +1,6 @@
 // @flow
 
-export * from './commands/index';
+export * from './interfaces/index';
 
 export { default as babelCJS } from './utils/babelCJS';
 export { default as babelESM } from './utils/babelESM';

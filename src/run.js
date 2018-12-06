@@ -1,5 +1,5 @@
 // @flow
-import { build, flow, help } from './commands/index';
+import { build, flow, help } from './interfaces/index';
 import {
   babelCJS,
   babelESM,
