@@ -50,7 +50,8 @@ module.exports = config;
     "build": "hsu-scripts build src",
     "test": "NODE_ENV='test' jest",
     "eslint": "eslint ./",
-    "flow": "hsu-scripts flow --threshold 75",
+    "flow": "flow",
+    "flow-coverage": "hsu-scripts flow --threshold 85",
     "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'"
   }
 }
@@ -91,7 +92,7 @@ $ npm run build
 ### Flow
 
 ```bash
-$ npm run flow
+$ npm run flow-coverage
 ```
 
 ## API
@@ -129,7 +130,7 @@ Examples:
   hsu-scripts build src                          Simple example
   hsu-scripts build src --es-dir esm             Custom es module directory
   hsu-scripts build src --cjs-dir 'cjs'          Custom commonjs module directory
-  hsu-scripts build src -i '__specs__' '**/*.spec.js'
+  hsu-scripts build src --ignore '__specs__' '**/*.spec.js'
 ```
 
 ### `hsu-scripts flow -h`
