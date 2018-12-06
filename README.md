@@ -85,7 +85,7 @@ $ npm run build
 > Done
 ```
 
-<details>
+</details>
 
 ### Flow
 
