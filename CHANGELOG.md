@@ -1,5 +1,16 @@
 ## Change Log
 
+### v0.2.0 (2018/12/06 05:46 +00:00)
+
+- [579fc6c](https://github.com/evenchange4/hsu-scripts/commit/579fc6c38b2a8d6675ca4c17f3991a628bab15ab) 0.2.0 (@evenchange4)
+- [#2](https://github.com/evenchange4/hsu-scripts/pull/2) feat: add flow command [BREAKING](#2) (@evenchange4)
+
+### v0.1.1 (2018/12/05 08:38 +00:00)
+
+- [e38a853](https://github.com/evenchange4/hsu-scripts/commit/e38a85397118bde6e0e2b4ea7991067faf2ae4ed) 0.1.1 (@evenchange4)
+- [#1](https://github.com/evenchange4/hsu-scripts/pull/1) chore: add precommit hook (#1) (@evenchange4)
+- [d3bc319](https://github.com/evenchange4/hsu-scripts/commit/d3bc3198967f36bd20430715dbf885bf51bf5a4d) docs(CHANGELOG): release 0.1.0 (@evenchange4)
+
 ### v0.1.0 (2018/12/05 07:11 +00:00)
 
 - [d96084f](https://github.com/evenchange4/hsu-scripts/commit/d96084fe61aec611246f3da1fa828396fb592d51) 0.1.0 (@evenchange4)
