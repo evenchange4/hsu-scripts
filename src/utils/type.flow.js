@@ -1,6 +1,6 @@
 // @flow
 
-export type CliArguments = {
+export type BuildArguments = {
   pattern: string,
   esDir: string,
   cjsDir: string,
