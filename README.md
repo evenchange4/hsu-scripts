@@ -13,7 +13,8 @@
 ## Install
 
 ```bash
-$ yarn install hsu-scripts flow eslint prettier --dev
+$ yarn install hsu-scripts --dev
+$ yarn install flow-bin eslint prettier --dev
 ```
 
 ## Setup configs
