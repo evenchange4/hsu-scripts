@@ -15,9 +15,9 @@ const help = () => {
       command: chalk.green('flow'),
       desc: 'The flow-coverage-report command.',
     })
+    .alias('v', 'version')
     .alias('h', 'help')
     .version(version)
-    .alias('v', 'version')
     .locale('en')
     .epilogue(
       'For more information go to https://github.com/evenchange4/hsu-scripts',

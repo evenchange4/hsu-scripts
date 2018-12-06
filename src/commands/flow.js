@@ -40,6 +40,7 @@ const build = (): FlowArguments => {
     })
     .example(`$0 flow`, 'Simple example')
     .example(`$0 flow --threshold 75`, 'Custom threshold value')
+    .version(false)
     .alias('h', 'help')
     .locale('en')
     .epilogue(

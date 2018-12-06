@@ -45,6 +45,7 @@ const build = (): BuildArguments => {
     .example(`$0 build src --es-dir esm`, 'Custom es module directory')
     .example(`$0 build src --cjs-dir 'cjs'`, 'Custom commonjs module directory')
     .example(`$0 build src -i '__specs__' '**/*.spec.js'`)
+    .version(false)
     .alias('h', 'help')
     .locale('en')
     .fail((msg, err) => {

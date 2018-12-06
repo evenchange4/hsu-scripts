@@ -118,7 +118,6 @@ Usage: hsu-scripts build <pattern> [options]
 <pattern> Glob pattern to specify files.
 
 Options:
-  --version   Show version number                                      [boolean]
   --es-dir    Output es module directory.               [string] [default: "es"]
   --cjs-dir   Output commonjs module directory.        [string] [default: "lib"]
   --ignore    The list of glob paths to **not** compile
@@ -138,7 +137,6 @@ Examples:
 Usage: hsu-scripts flow [options]
 
 Options:
-  --version           Show version number                              [boolean]
   --concurrent-files                                       [number] [default: 5]
   --include-glob                                  [array] [default: ["**/*.js"]]
   --exclude-glob                                               [array] [default:
