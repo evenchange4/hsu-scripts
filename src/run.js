@@ -1,22 +1,40 @@
 // @flow
+import { build, flow, help } from './commands/index';
 import {
   babelCJS,
   babelESM,
   clean,
-  flowCJS,
-  flowESM,
-  getCliArguments,
+  copyFlowCJS,
+  copyFlowESM,
+  flowCoverage,
 } from './index';
 
 const run = async () => {
-  const { pattern, esDir, cjsDir, ignore } = getCliArguments();
+  const subCommand: ?string = process.argv[2];
 
   try {
-    await clean({ pattern, esDir, cjsDir, ignore });
-    await babelCJS({ pattern, esDir, cjsDir, ignore });
-    await babelESM({ pattern, esDir, cjsDir, ignore });
-    await flowCJS({ pattern, esDir, cjsDir, ignore });
-    await flowESM({ pattern, esDir, cjsDir, ignore });
+    switch (subCommand) {
+      case 'build': {
+        const cliArguments = build();
+        await clean(cliArguments);
+        await babelCJS(cliArguments);
+        await babelESM(cliArguments);
+        await copyFlowCJS(cliArguments);
+        await copyFlowESM(cliArguments);
+        break;
+      }
+      case 'flow': {
+        const cliArguments = flow();
+        await flowCoverage(cliArguments);
+        break;
+      }
+
+      case 'help':
+      default: {
+        help();
+        break;
+      }
+    }
   } catch (error) {
     console.error(error); // eslint-disable-line
     process.exit(1);

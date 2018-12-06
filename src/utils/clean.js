@@ -1,8 +1,8 @@
 // @flow
 import exec from './exec';
-import { type CliArguments } from './type.flow';
+import { type BuildArguments } from './type.flow';
 
-const clean = ({ esDir, cjsDir }: CliArguments) => {
+const clean = ({ esDir, cjsDir }: BuildArguments) => {
   const shell = `rimraf ${esDir} ${cjsDir}`;
 
   return exec(shell);

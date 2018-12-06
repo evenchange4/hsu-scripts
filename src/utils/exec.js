@@ -1,12 +1,16 @@
 // @flow
 import execa from 'execa';
-import chalk from 'chalk';
+import log from './log';
 
 const exec = async (shell: string) => {
   try {
-    console.log(`\n> ${shell}`); // eslint-disable-line
-    const { stdout = 'done' } = await execa.shell(shell, { extendEnv: false });
-    console.log(chalk.gray(stdout)); // eslint-disable-line
+    log(`\n> ${shell}`);
+    const { stdout } = await execa.shell(shell, { extendEnv: false });
+    if (stdout) {
+      log(stdout);
+    } else {
+      log('Done');
+    }
   } catch (error) {
     throw error;
   }
