@@ -178,6 +178,7 @@ $ yarn run eslint
 
 - https://github.com/evenchange4/hsu-scripts
 - https://github.com/evenchange4/react-overlay-pack
+- https://github.com/evenchange4/remark-utils
 - https://github.com/Mediatek-Cloud/mcs-ui
 
 ## Publish
