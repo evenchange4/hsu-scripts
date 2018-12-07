@@ -171,7 +171,7 @@ Use tools to build/flow itself.
 
 ```bash
 $ yarn run build
-$ yarn run flow
+$ yarn run flow-coverage
 $ yarn run format
 $ yarn run eslint
 ```
