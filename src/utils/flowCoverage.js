@@ -1,5 +1,6 @@
 // @flow
 import execa from 'execa';
+import chalk from 'chalk';
 import log from './log';
 import { type FlowArguments } from './type.flow';
 
@@ -22,10 +23,12 @@ const flowCoverage = async ({
     const { stdout } = await execa.shell(shell, { extendEnv: false });
     log(stdout);
     if (!stdout.includes('(0 errors)')) {
-      throw new Error('There are flow errors.');
+      throw new Error(chalk.red('There are flow errors.'));
     }
-    if (!stdout.includes('no flow')) {
-      throw new Error('There are some files without @flow annotation.');
+    if (stdout.includes('no flow')) {
+      throw new Error(
+        chalk.red('There are some files without @flow annotation.'),
+      );
     }
   } catch (error) {
     throw error;
