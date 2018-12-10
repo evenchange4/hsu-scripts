@@ -1,5 +1,16 @@
 ## Change Log
 
+### v0.2.1 (2018/12/10 01:20 +00:00)
+
+- [af0faec](https://github.com/evenchange4/hsu-scripts/commit/af0faec865686deec63a1a489434ab88bc2f26c2) 0.2.1 (@evenchange4)
+- [#3](https://github.com/evenchange4/hsu-scripts/pull/3) chore(deps): update dependency eslint to v5.10.0 (#3) (@renovate[bot])
+- [1efda08](https://github.com/evenchange4/hsu-scripts/commit/1efda08587ca3751cac7abec472a207ce758270e) docs(README): add imagemin-simple to example (@evenchange4)
+- [d7ab25b](https://github.com/evenchange4/hsu-scripts/commit/d7ab25bd0df29a30e0b8bbbba59eed2536aacffb) chore: update flow scripts (@evenchange4)
+- [812e777](https://github.com/evenchange4/hsu-scripts/commit/812e777a456a264f512d0e40e7bc091fddc5b6c0) docs(build): update example (@evenchange4)
+- [291cba1](https://github.com/evenchange4/hsu-scripts/commit/291cba1f2536802f6db85c987fee45f836e94b2d) docs(README): typo flow-bin (@evenchange4)
+- [d1d9b52](https://github.com/evenchange4/hsu-scripts/commit/d1d9b5204f73c9923ffd013a454b32b9238d671c) refactor: rename commands -> interfaces (@evenchange4)
+- [a198726](https://github.com/evenchange4/hsu-scripts/commit/a19872632a49db3f7cc9fa039c7efe44c359df63) docs(CHANGELOG): release 0.2.0 (@evenchange4)
+
 ### v0.2.0 (2018/12/06 05:46 +00:00)
 
 - [579fc6c](https://github.com/evenchange4/hsu-scripts/commit/579fc6c38b2a8d6675ca4c17f3991a628bab15ab) 0.2.0 (@evenchange4)
