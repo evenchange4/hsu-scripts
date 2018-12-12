@@ -3,6 +3,7 @@ import execa from 'execa';
 import chalk from 'chalk';
 import log from './log';
 import { type FlowArguments } from './type.flow';
+import trimSpaces from './trimSpaces';
 
 const flowCoverage = async ({
   concurrentFiles,
@@ -11,12 +12,14 @@ const flowCoverage = async ({
   type,
   threshold,
 }: FlowArguments): Promise<void> => {
-  const shell = `flow-coverage-report \
-    --concurrent-files ${concurrentFiles} \
-    ${includeGlob.map(i => `--include-glob '${i}'`).join(' ')} \
-    ${excludeGlob.map(e => `--exclude-glob '${e}'`).join(' ')} \
-    ${type.map(t => `--type ${t}`).join(' ')} \
-    --threshold ${threshold}`;
+  const shell = trimSpaces(
+    `flow-coverage-report \
+      --concurrent-files ${concurrentFiles} \
+      ${includeGlob.map(i => `--include-glob '${i}'`).join(' ')} \
+      ${excludeGlob.map(e => `--exclude-glob '${e}'`).join(' ')} \
+      ${type.map(t => `--type ${t}`).join(' ')} \
+      --threshold ${threshold}`,
+  );
 
   try {
     log(`\n> ${shell}`);

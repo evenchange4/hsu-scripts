@@ -18,10 +18,12 @@
   ],
   "scripts": {
     "build": "NODE_ENV='cjs' babel-node src/bin.js build src",
-    "test": "NODE_ENV='cjs' babel-node src/bin.js build src --es-dir esm --ignore '__specs__' '**/*.spec.js' '**/*.example.js' --cjs-dir 'cjs2'",
+    "test:cli": "NODE_ENV='cjs' babel-node src/bin.js build src --es-dir esm --ignore '__specs__' '**/*.spec.js' '**/*.example.js' --cjs-dir 'cjs2'",
     "help": "NODE_ENV='cjs' babel-node src/bin.js",
+    "test": "NODE_ENV='test' jest --coverage",
+    "test:watch": "npm run test -- --watch",
     "flow": "flow",
-    "flow-coverage": "NODE_ENV='cjs' babel-node src/bin.js flow --threshold 82",
+    "flow-coverage": "NODE_ENV='cjs' babel-node src/bin.js flow --threshold 86",
     "eslint": "eslint ./",
     "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'",
     "changelog": "github-changes -o evenchange4 -r hsu-scripts -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
@@ -41,7 +43,7 @@
     "babel-loader": "^8.0.4",
     "babel-plugin-add-module-exports": "^1.0.0",
     "babel-plugin-require-context-hook": "^1.0.0",
-    "babel-plugin-styled-components": "^1.9.3",
+    "babel-plugin-styled-components": "^1.9.4",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.21",
     "chalk": "^2.4.1",
     "eslint-config-airbnb": "^17.1.0",
@@ -60,12 +62,37 @@
   },
   "devDependencies": {
     "@babel/node": "7.2.0",
+    "codecov": "3.1.0",
     "eslint": "5.10.0",
     "flow-bin": "0.88.0",
     "github-changes": "1.1.2",
     "husky": "1.2.0",
+    "jest": "23.6.0",
     "lint-staged": "8.1.0",
     "prettier": "1.15.3"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/*.test.js",
+      "!src/**/*.example.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib/",
+      "<rootDir>/es/"
+    ],
+    "resetMocks": true,
+    "resetModules": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 37,
+        "functions": 66,
+        "lines": 60,
+        "statements": 58
+      }
+    }
   },
   "eslintConfig": {
     "extends": [

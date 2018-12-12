@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return constants correctly 1`] = `
+Object {
+  "DEFAULT_CJS_DIR": "lib",
+  "DEFAULT_CONCURRENT_FILES": 5,
+  "DEFAULT_ES_DIR": "es",
+  "DEFAULT_EXCLUDE_GLOB": Array [
+    "node_modules/**",
+    "public/**",
+    ".next/**",
+    "coverage/**",
+    "storybook-static/**",
+    "flow-typed/**",
+    "lib/**",
+    "es/**",
+  ],
+  "DEFAULT_IGNORE": Array [
+    "__tests__",
+    "**/*.test.js",
+    "**/*.example.js",
+  ],
+  "DEFAULT_INCLUDE_GLOB": Array [
+    "**/*.js",
+  ],
+  "DEFAULT_THRESHOLD": 90,
+  "DEFAULT_TYPE": Array [
+    "text",
+  ],
+  "__esModule": true,
+  "babelrcPath": "/__dirname/../../.babelrc",
+}
+`;
