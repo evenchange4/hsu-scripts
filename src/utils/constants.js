@@ -1,4 +1,7 @@
 // @flow
+import path from 'path';
+
+export const babelrcPath = path.resolve(__dirname, '../../.babelrc');
 
 // Note: Build
 export const DEFAULT_ES_DIR = 'es';
