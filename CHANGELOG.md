@@ -1,5 +1,19 @@
 ## Change Log
 
+### v0.2.3 (2018/12/12 08:09 +00:00)
+
+- [4b55292](https://github.com/evenchange4/hsu-scripts/commit/4b5529203758d55c1e8d3904274e6a5644e67bc1) 0.2.3 (@evenchange4)
+- [#6](https://github.com/evenchange4/hsu-scripts/pull/6) test: add tests & use node 11.4.0 (#6) (@evenchange4)
+- [4cb4c4d](https://github.com/evenchange4/hsu-scripts/commit/4cb4c4d8facb5bd072fcec19f017b353bee33d9c) chore: bump babel-plugin-sc version (@evenchange4)
+- [#5](https://github.com/evenchange4/hsu-scripts/pull/5) chore(deps): update dependency flow-bin to v0.88.0 (#5) (@renovate[bot])
+
+### v0.2.2 (2018/12/10 07:57 +00:00)
+
+- [c421813](https://github.com/evenchange4/hsu-scripts/commit/c4218137aa62c8e5e5ff49a42943beb63a05f97a) 0.2.2 (@evenchange4)
+- [#4](https://github.com/evenchange4/hsu-scripts/pull/4) feat(flow): add @flow annotation check (#4) (@evenchange4)
+- [6c1c728](https://github.com/evenchange4/hsu-scripts/commit/6c1c72836ba07c2ef811151d68386d3501c50c16) docs(README): add examples (@evenchange4)
+- [37036ba](https://github.com/evenchange4/hsu-scripts/commit/37036ba80cd8399e001f90fb466f1926b1d3f2f8) docs(CHANGELOG): release 0.2.1 (@evenchange4)
+
 ### v0.2.1 (2018/12/10 01:20 +00:00)
 
 - [af0faec](https://github.com/evenchange4/hsu-scripts/commit/af0faec865686deec63a1a489434ab88bc2f26c2) 0.2.1 (@evenchange4)
