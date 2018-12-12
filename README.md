@@ -157,7 +157,7 @@ For more information go to https://github.com/rpl/flow-coverage-report
 
 ## Development
 
-- node 11.3.0
+- node 11.4.0
 - yarn 1.12.3
 - react >= 16
 
