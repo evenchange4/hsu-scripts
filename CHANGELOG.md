@@ -1,63 +1,72 @@
-## Change Log
+## Unreleased (2018-12-20)
 
-### v0.2.3 (2018/12/12 08:09 +00:00)
+- update ([4347db7](https://github.com/evenchange4/hsu-scripts/commit/4347db7))
+- chore: ncu update ([2aed6bd](https://github.com/evenchange4/hsu-scripts/commit/2aed6bd))
+- chore: ncu update ([eb7dcce](https://github.com/evenchange4/hsu-scripts/commit/eb7dcce))
+- chore(changelog): switch to conventional-changelog-cli ([90d6715](https://github.com/evenchange4/hsu-scripts/commit/90d6715))
+- chore(deps): update dependency @babel/node to v7.2.2 (#9) ([b58792f](https://github.com/evenchange4/hsu-scripts/commit/b58792f)), closes [#9](https://github.com/evenchange4/hsu-scripts/issues/9)
+- chore(deps): update dependency husky to v1.3.0 (#10) ([95d487d](https://github.com/evenchange4/hsu-scripts/commit/95d487d)), closes [#10](https://github.com/evenchange4/hsu-scripts/issues/10)
+- feat: upgrade jest & remove useless babel library [BREAKING](#11) ([f4918a4](https://github.com/evenchange4/hsu-scripts/commit/f4918a4)), closes [#11](https://github.com/evenchange4/hsu-scripts/issues/11)
+- docs(CHANGELOG): release 0.2.3 ([ec38750](https://github.com/evenchange4/hsu-scripts/commit/ec38750))
 
-- [4b55292](https://github.com/evenchange4/hsu-scripts/commit/4b5529203758d55c1e8d3904274e6a5644e67bc1) 0.2.3 (@evenchange4)
-- [#6](https://github.com/evenchange4/hsu-scripts/pull/6) test: add tests & use node 11.4.0 (#6) (@evenchange4)
-- [4cb4c4d](https://github.com/evenchange4/hsu-scripts/commit/4cb4c4d8facb5bd072fcec19f017b353bee33d9c) chore: bump babel-plugin-sc version (@evenchange4)
-- [#5](https://github.com/evenchange4/hsu-scripts/pull/5) chore(deps): update dependency flow-bin to v0.88.0 (#5) (@renovate[bot])
+## <small>0.2.3 (2018-12-12)</small>
 
-### v0.2.2 (2018/12/10 07:57 +00:00)
+- 0.2.3 ([4b55292](https://github.com/evenchange4/hsu-scripts/commit/4b55292))
+- test: add tests & use node 11.4.0 (#6) ([7cb3876](https://github.com/evenchange4/hsu-scripts/commit/7cb3876)), closes [#6](https://github.com/evenchange4/hsu-scripts/issues/6)
+- chore: bump babel-plugin-sc version ([4cb4c4d](https://github.com/evenchange4/hsu-scripts/commit/4cb4c4d))
+- chore(deps): update dependency flow-bin to v0.88.0 (#5) ([ab5ec1e](https://github.com/evenchange4/hsu-scripts/commit/ab5ec1e)), closes [#5](https://github.com/evenchange4/hsu-scripts/issues/5)
 
-- [c421813](https://github.com/evenchange4/hsu-scripts/commit/c4218137aa62c8e5e5ff49a42943beb63a05f97a) 0.2.2 (@evenchange4)
-- [#4](https://github.com/evenchange4/hsu-scripts/pull/4) feat(flow): add @flow annotation check (#4) (@evenchange4)
-- [6c1c728](https://github.com/evenchange4/hsu-scripts/commit/6c1c72836ba07c2ef811151d68386d3501c50c16) docs(README): add examples (@evenchange4)
-- [37036ba](https://github.com/evenchange4/hsu-scripts/commit/37036ba80cd8399e001f90fb466f1926b1d3f2f8) docs(CHANGELOG): release 0.2.1 (@evenchange4)
+## <small>0.2.2 (2018-12-10)</small>
 
-### v0.2.1 (2018/12/10 01:20 +00:00)
+- 0.2.2 ([c421813](https://github.com/evenchange4/hsu-scripts/commit/c421813))
+- feat(flow): add @flow annotation check (#4) ([f71a3a8](https://github.com/evenchange4/hsu-scripts/commit/f71a3a8)), closes [#4](https://github.com/evenchange4/hsu-scripts/issues/4)
+- docs(CHANGELOG): release 0.2.1 ([37036ba](https://github.com/evenchange4/hsu-scripts/commit/37036ba))
+- docs(README): add examples ([6c1c728](https://github.com/evenchange4/hsu-scripts/commit/6c1c728))
 
-- [af0faec](https://github.com/evenchange4/hsu-scripts/commit/af0faec865686deec63a1a489434ab88bc2f26c2) 0.2.1 (@evenchange4)
-- [#3](https://github.com/evenchange4/hsu-scripts/pull/3) chore(deps): update dependency eslint to v5.10.0 (#3) (@renovate[bot])
-- [1efda08](https://github.com/evenchange4/hsu-scripts/commit/1efda08587ca3751cac7abec472a207ce758270e) docs(README): add imagemin-simple to example (@evenchange4)
-- [d7ab25b](https://github.com/evenchange4/hsu-scripts/commit/d7ab25bd0df29a30e0b8bbbba59eed2536aacffb) chore: update flow scripts (@evenchange4)
-- [812e777](https://github.com/evenchange4/hsu-scripts/commit/812e777a456a264f512d0e40e7bc091fddc5b6c0) docs(build): update example (@evenchange4)
-- [291cba1](https://github.com/evenchange4/hsu-scripts/commit/291cba1f2536802f6db85c987fee45f836e94b2d) docs(README): typo flow-bin (@evenchange4)
-- [d1d9b52](https://github.com/evenchange4/hsu-scripts/commit/d1d9b5204f73c9923ffd013a454b32b9238d671c) refactor: rename commands -> interfaces (@evenchange4)
-- [a198726](https://github.com/evenchange4/hsu-scripts/commit/a19872632a49db3f7cc9fa039c7efe44c359df63) docs(CHANGELOG): release 0.2.0 (@evenchange4)
+## <small>0.2.1 (2018-12-10)</small>
 
-### v0.2.0 (2018/12/06 05:46 +00:00)
+- 0.2.1 ([af0faec](https://github.com/evenchange4/hsu-scripts/commit/af0faec))
+- chore: update flow scripts ([d7ab25b](https://github.com/evenchange4/hsu-scripts/commit/d7ab25b))
+- chore(deps): update dependency eslint to v5.10.0 (#3) ([70f6957](https://github.com/evenchange4/hsu-scripts/commit/70f6957)), closes [#3](https://github.com/evenchange4/hsu-scripts/issues/3)
+- docs(build): update example ([812e777](https://github.com/evenchange4/hsu-scripts/commit/812e777))
+- docs(CHANGELOG): release 0.2.0 ([a198726](https://github.com/evenchange4/hsu-scripts/commit/a198726))
+- docs(README): add imagemin-simple to example ([1efda08](https://github.com/evenchange4/hsu-scripts/commit/1efda08))
+- docs(README): typo flow-bin ([291cba1](https://github.com/evenchange4/hsu-scripts/commit/291cba1))
+- refactor: rename commands -> interfaces ([d1d9b52](https://github.com/evenchange4/hsu-scripts/commit/d1d9b52))
 
-- [579fc6c](https://github.com/evenchange4/hsu-scripts/commit/579fc6c38b2a8d6675ca4c17f3991a628bab15ab) 0.2.0 (@evenchange4)
-- [#2](https://github.com/evenchange4/hsu-scripts/pull/2) feat: add flow command [BREAKING](#2) (@evenchange4)
+## 0.2.0 (2018-12-06)
 
-### v0.1.1 (2018/12/05 08:38 +00:00)
+- 0.2.0 ([579fc6c](https://github.com/evenchange4/hsu-scripts/commit/579fc6c))
+- feat: add flow command [BREAKING](#2) ([42864b5](https://github.com/evenchange4/hsu-scripts/commit/42864b5)), closes [#2](https://github.com/evenchange4/hsu-scripts/issues/2)
 
-- [e38a853](https://github.com/evenchange4/hsu-scripts/commit/e38a85397118bde6e0e2b4ea7991067faf2ae4ed) 0.1.1 (@evenchange4)
-- [#1](https://github.com/evenchange4/hsu-scripts/pull/1) chore: add precommit hook (#1) (@evenchange4)
-- [d3bc319](https://github.com/evenchange4/hsu-scripts/commit/d3bc3198967f36bd20430715dbf885bf51bf5a4d) docs(CHANGELOG): release 0.1.0 (@evenchange4)
+## <small>0.1.1 (2018-12-05)</small>
 
-### v0.1.0 (2018/12/05 07:11 +00:00)
+- 0.1.1 ([e38a853](https://github.com/evenchange4/hsu-scripts/commit/e38a853))
+- chore: add precommit hook (#1) ([49e6620](https://github.com/evenchange4/hsu-scripts/commit/49e6620)), closes [#1](https://github.com/evenchange4/hsu-scripts/issues/1)
+- docs(CHANGELOG): release 0.1.0 ([d3bc319](https://github.com/evenchange4/hsu-scripts/commit/d3bc319))
 
-- [d96084f](https://github.com/evenchange4/hsu-scripts/commit/d96084fe61aec611246f3da1fa828396fb592d51) 0.1.0 (@evenchange4)
-- [c0ac92e](https://github.com/evenchange4/hsu-scripts/commit/c0ac92ef15cd2615fdaa1e2c87f4ad6aa04820e4) update docs (+4 squashed commits) (@evenchange4)
+## 0.1.0 (2018-12-05)
 
-### v0.0.4 (2018/12/05 06:13 +00:00)
+- 0.1.0 ([d96084f](https://github.com/evenchange4/hsu-scripts/commit/d96084f))
+- update docs (+4 squashed commits) ([c0ac92e](https://github.com/evenchange4/hsu-scripts/commit/c0ac92e))
 
-- [3716c2c](https://github.com/evenchange4/hsu-scripts/commit/3716c2cc82b9d190128dda847fc925079212e7f1) 0.0.4 (@evenchange4)
-- [2754f1c](https://github.com/evenchange4/hsu-scripts/commit/2754f1c32a89df02c85ae00614a445a82f738786) feat: add eslint config & prettier config (@evenchange4)
+## <small>0.0.4 (2018-12-05)</small>
 
-### v0.0.3 (2018/12/05 05:44 +00:00)
+- 0.0.4 ([3716c2c](https://github.com/evenchange4/hsu-scripts/commit/3716c2c))
+- feat: add eslint config & prettier config ([2754f1c](https://github.com/evenchange4/hsu-scripts/commit/2754f1c))
 
-- [cf3ffc9](https://github.com/evenchange4/hsu-scripts/commit/cf3ffc9bef9d086fb27f68588baff383d2d9300f) 0.0.3 (@evenchange4)
-- [461b911](https://github.com/evenchange4/hsu-scripts/commit/461b9117b1034f0f3ebe4841a963de5c35195bf3) fix: add missing .babelrc (@evenchange4)
+## <small>0.0.3 (2018-12-05)</small>
 
-### v0.0.2 (2018/12/05 05:37 +00:00)
+- 0.0.3 ([cf3ffc9](https://github.com/evenchange4/hsu-scripts/commit/cf3ffc9))
+- fix: add missing .babelrc ([461b911](https://github.com/evenchange4/hsu-scripts/commit/461b911))
 
-- [356e865](https://github.com/evenchange4/hsu-scripts/commit/356e86521366cde69c4df07b507915bfcaa7992e) 0.0.2 (@evenchange4)
-- [93ea92a](https://github.com/evenchange4/hsu-scripts/commit/93ea92abd5ca73fc2966ae99e33f75c2b5756798) fix: add missing bin folder (@evenchange4)
+## <small>0.0.2 (2018-12-05)</small>
 
-### v0.0.1 (2018/12/05 05:33 +00:00)
+- 0.0.2 ([356e865](https://github.com/evenchange4/hsu-scripts/commit/356e865))
+- fix: add missing bin folder ([93ea92a](https://github.com/evenchange4/hsu-scripts/commit/93ea92a))
 
-- [8b99e4a](https://github.com/evenchange4/hsu-scripts/commit/8b99e4a0506fd5668695db27227c2d091fc4a155) 0.0.1 (@evenchange4)
-- [38b4c92](https://github.com/evenchange4/hsu-scripts/commit/38b4c92d6a03bcb6bff7b0677759af28a7f3729f) feat: build itself (@evenchange4)
-- [a45d2b8](https://github.com/evenchange4/hsu-scripts/commit/a45d2b8476ccb1642e688cbe1623502a784d9719) feat: init (@evenchange4)
+## <small>0.0.1 (2018-12-05)</small>
+
+- 0.0.1 ([8b99e4a](https://github.com/evenchange4/hsu-scripts/commit/8b99e4a))
+- feat: build itself ([38b4c92](https://github.com/evenchange4/hsu-scripts/commit/38b4c92))
+- feat: init ([a45d2b8](https://github.com/evenchange4/hsu-scripts/commit/a45d2b8))
