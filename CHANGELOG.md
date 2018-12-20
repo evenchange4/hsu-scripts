@@ -1,5 +1,9 @@
 ## Unreleased (2018-12-20)
 
+- chore: use node 11.5.0 ([f278d1e](https://github.com/evenchange4/hsu-scripts/commit/f278d1e))
+- docs(CHANGELOG): release 0.3.0 ([f333345](https://github.com/evenchange4/hsu-scripts/commit/f333345))
+- docs(README): update release flow ([5799c7f](https://github.com/evenchange4/hsu-scripts/commit/5799c7f))
+
 ## 0.3.0 (2018-12-20)
 
 - 0.3.0 ([6a97861](https://github.com/evenchange4/hsu-scripts/commit/6a97861))
