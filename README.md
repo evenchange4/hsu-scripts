@@ -192,8 +192,8 @@ $ yarn run eslint
 
 ```bash
 $ npm version patch
-$ git push
 $ npm run changelog
+git commit & push
 ```
 
 ---
