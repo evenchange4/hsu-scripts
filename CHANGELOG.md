@@ -1,9 +1,11 @@
 ## Unreleased (2018-12-20)
 
-- update ([4347db7](https://github.com/evenchange4/hsu-scripts/commit/4347db7))
+## 0.3.0 (2018-12-20)
+
+- 0.3.0 ([6a97861](https://github.com/evenchange4/hsu-scripts/commit/6a97861))
 - chore: ncu update ([2aed6bd](https://github.com/evenchange4/hsu-scripts/commit/2aed6bd))
 - chore: ncu update ([eb7dcce](https://github.com/evenchange4/hsu-scripts/commit/eb7dcce))
-- chore(changelog): switch to conventional-changelog-cli ([90d6715](https://github.com/evenchange4/hsu-scripts/commit/90d6715))
+- chore(changelog): switch to conventional-changelog-cli (#12) ([20994ec](https://github.com/evenchange4/hsu-scripts/commit/20994ec)), closes [#12](https://github.com/evenchange4/hsu-scripts/issues/12)
 - chore(deps): update dependency @babel/node to v7.2.2 (#9) ([b58792f](https://github.com/evenchange4/hsu-scripts/commit/b58792f)), closes [#9](https://github.com/evenchange4/hsu-scripts/issues/9)
 - chore(deps): update dependency husky to v1.3.0 (#10) ([95d487d](https://github.com/evenchange4/hsu-scripts/commit/95d487d)), closes [#10](https://github.com/evenchange4/hsu-scripts/issues/10)
 - feat: upgrade jest & remove useless babel library [BREAKING](#11) ([f4918a4](https://github.com/evenchange4/hsu-scripts/commit/f4918a4)), closes [#11](https://github.com/evenchange4/hsu-scripts/issues/11)
