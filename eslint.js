@@ -32,5 +32,9 @@ module.exports = {
         aspects: ['noHref', 'invalidHref', 'preferButton'],
       },
     ],
+    'react/default-props-match-prop-types': [
+      'error',
+      { allowRequiredDefaults: true },
+    ],
   },
 };
