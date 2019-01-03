@@ -1,6 +1,13 @@
-## Unreleased (2018-12-20)
+## Unreleased (2019-01-03)
 
+## 1.0.0 (2019-01-03)
+
+- 1.0.0 ([be25ec5](https://github.com/evenchange4/hsu-scripts/commit/be25ec5))
+- fix(eslint): default-props-match-prop-types not working with flow (#15) ([caa18d6](https://github.com/evenchange4/hsu-scripts/commit/caa18d6)), closes [#15](https://github.com/evenchange4/hsu-scripts/issues/15)
+- chore: update changelog tools params ([5c7cad4](https://github.com/evenchange4/hsu-scripts/commit/5c7cad4))
 - chore: use node 11.5.0 ([f278d1e](https://github.com/evenchange4/hsu-scripts/commit/f278d1e))
+- chore(deps): update dependency husky to v1.3.1 (#14) ([d42e450](https://github.com/evenchange4/hsu-scripts/commit/d42e450)), closes [#14](https://github.com/evenchange4/hsu-scripts/issues/14)
+- chore(ncu): ncu update & use node 11.6.0 ([20316cd](https://github.com/evenchange4/hsu-scripts/commit/20316cd))
 - docs(CHANGELOG): release 0.3.0 ([f333345](https://github.com/evenchange4/hsu-scripts/commit/f333345))
 - docs(README): update release flow ([5799c7f](https://github.com/evenchange4/hsu-scripts/commit/5799c7f))
 
