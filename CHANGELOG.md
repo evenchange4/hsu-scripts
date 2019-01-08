@@ -1,5 +1,11 @@
 ## Unreleased (2019-01-08)
 
+## <small>1.0.2 (2019-01-08)</small>
+
+- 1.0.2 ([3efaa72](https://github.com/evenchange4/hsu-scripts/commit/3efaa72))
+- fix(eslint): wrong dependency hotfix ([aa80475](https://github.com/evenchange4/hsu-scripts/commit/aa80475))
+- docs(CHANGELOG): release 1.0.1 ([24d5c9b](https://github.com/evenchange4/hsu-scripts/commit/24d5c9b))
+
 ## <small>1.0.1 (2019-01-08)</small>
 
 - 1.0.1 ([645a0df](https://github.com/evenchange4/hsu-scripts/commit/645a0df))
