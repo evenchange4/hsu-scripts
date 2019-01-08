@@ -1,4 +1,11 @@
-## Unreleased (2019-01-03)
+## Unreleased (2019-01-08)
+
+## <small>1.0.1 (2019-01-08)</small>
+
+- 1.0.1 ([645a0df](https://github.com/evenchange4/hsu-scripts/commit/645a0df))
+- feat(eslint): add eslint-plugin-react-hooks rules (#17) ([d42ba5c](https://github.com/evenchange4/hsu-scripts/commit/d42ba5c)), closes [#17](https://github.com/evenchange4/hsu-scripts/issues/17)
+- chore(deps): update dependency eslint to v5.12.0 (#16) ([fbecacc](https://github.com/evenchange4/hsu-scripts/commit/fbecacc)), closes [#16](https://github.com/evenchange4/hsu-scripts/issues/16)
+- docs(CHANGELOG): release 1.0.0 ([844fbb8](https://github.com/evenchange4/hsu-scripts/commit/844fbb8))
 
 ## 1.0.0 (2019-01-03)
 
