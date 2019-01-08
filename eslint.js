@@ -9,7 +9,7 @@ module.exports = {
     'prettier/react',
     'prettier/flowtype',
   ],
-  plugins: ['prettier', 'jest', 'flowtype'],
+  plugins: ['prettier', 'jest', 'flowtype', 'react-hooks'],
   env: {
     'jest/globals': true,
   },
@@ -36,5 +36,6 @@ module.exports = {
       'error',
       { allowRequiredDefaults: true },
     ],
+    'react-hooks/rules-of-hooks': 'error',
   },
 };
