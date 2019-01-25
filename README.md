@@ -188,6 +188,7 @@ $ yarn run eslint
 - https://github.com/Mediatek-Cloud/mcs-ui
 - https://github.com/evenchange4/michaelhsu
 - https://github.com/evenchange4/graphql.macro
+- https://github.com/evenchange4/react-intl.macro
 
 ## Publish
 
