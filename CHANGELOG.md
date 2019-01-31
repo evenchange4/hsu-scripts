@@ -1,5 +1,11 @@
 ## Unreleased (2019-01-31)
 
+## <small>1.0.4 (2019-01-31)</small>
+
+- 1.0.4 ([f546d32](https://github.com/evenchange4/hsu-scripts/commit/f546d32))
+- Revert "refactor(CLI): extract createCLI function (#33)" ([fd41090](https://github.com/evenchange4/hsu-scripts/commit/fd41090)), closes [#33](https://github.com/evenchange4/hsu-scripts/issues/33)
+- docs(CHANGELOG): release 1.0.3 ([5738d04](https://github.com/evenchange4/hsu-scripts/commit/5738d04))
+
 ## <small>1.0.3 (2019-01-31)</small>
 
 - 1.0.3 ([925b47b](https://github.com/evenchange4/hsu-scripts/commit/925b47b))
