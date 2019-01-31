@@ -1,4 +1,12 @@
 // @flow
-import run from './run';
+/* eslint no-console: 0 */
+import run from './cli';
 
-run();
+(async () => {
+  try {
+    await run();
+  } catch (error) {
+    console.error(error);
+    process.exit(1);
+  }
+})();
