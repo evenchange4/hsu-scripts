@@ -107,8 +107,8 @@ Commands:
   hsu-scripts flow   The flow-coverage-report command.
 
 Options:
-  -h, --help     Show help                                             [boolean]
   -v, --version  Show version number                                   [boolean]
+  -h, --help     Show help                                             [boolean]
 
 For more information go to https://github.com/evenchange4/hsu-scripts
 ```
@@ -157,8 +157,8 @@ For more information go to https://github.com/rpl/flow-coverage-report
 
 ## Development
 
-- node 11.6.0
-- yarn 1.12.3
+- node 11.9.0
+- yarn 1.13.0
 
 ```bash
 $ yarn install --pure-lockfile
