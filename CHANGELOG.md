@@ -1,4 +1,27 @@
-## Unreleased (2019-01-08)
+## Unreleased (2019-01-31)
+
+## <small>1.0.3 (2019-01-31)</small>
+
+- 1.0.3 ([925b47b](https://github.com/evenchange4/hsu-scripts/commit/925b47b))
+- refactor(CLI): extract createCLI function (#33) ([6dec8bc](https://github.com/evenchange4/hsu-scripts/commit/6dec8bc)), closes [#33](https://github.com/evenchange4/hsu-scripts/issues/33)
+- chore(deps): update dependency eslint to v5.12.1 (#23) ([9da70d8](https://github.com/evenchange4/hsu-scripts/commit/9da70d8)), closes [#23](https://github.com/evenchange4/hsu-scripts/issues/23)
+- chore(deps): update dependency flow-bin to v0.90.0 (#20) ([7ca97ec](https://github.com/evenchange4/hsu-scripts/commit/7ca97ec)), closes [#20](https://github.com/evenchange4/hsu-scripts/issues/20)
+- chore(deps): update dependency flow-bin to v0.91.0 (#22) ([6aff384](https://github.com/evenchange4/hsu-scripts/commit/6aff384)), closes [#22](https://github.com/evenchange4/hsu-scripts/issues/22)
+- chore(deps): update dependency jest to v24.0.0 (#28) ([7b46577](https://github.com/evenchange4/hsu-scripts/commit/7b46577)), closes [#28](https://github.com/evenchange4/hsu-scripts/issues/28)
+- chore(deps): update dependency jest to v24.0.0-alpha.10 (#18) ([fdc44cd](https://github.com/evenchange4/hsu-scripts/commit/fdc44cd)), closes [#18](https://github.com/evenchange4/hsu-scripts/issues/18)
+- chore(deps): update dependency jest to v24.0.0-alpha.11 (#19) ([22b0423](https://github.com/evenchange4/hsu-scripts/commit/22b0423)), closes [#19](https://github.com/evenchange4/hsu-scripts/issues/19)
+- chore(deps): update dependency jest to v24.0.0-alpha.12 (#21) ([b59f9d1](https://github.com/evenchange4/hsu-scripts/commit/b59f9d1)), closes [#21](https://github.com/evenchange4/hsu-scripts/issues/21)
+- chore(deps): update dependency jest to v24.0.0-alpha.13 (#26) ([6ca17d9](https://github.com/evenchange4/hsu-scripts/commit/6ca17d9)), closes [#26](https://github.com/evenchange4/hsu-scripts/issues/26)
+- chore(deps): update dependency jest to v24.0.0-alpha.15 (#27) ([bb60ff5](https://github.com/evenchange4/hsu-scripts/commit/bb60ff5)), closes [#27](https://github.com/evenchange4/hsu-scripts/issues/27)
+- chore(deps): update dependency lint-staged to v8.1.1 (#30) ([5604e2c](https://github.com/evenchange4/hsu-scripts/commit/5604e2c)), closes [#30](https://github.com/evenchange4/hsu-scripts/issues/30)
+- chore(deps): update dependency prettier to v1.16.0 (#24) ([604d596](https://github.com/evenchange4/hsu-scripts/commit/604d596)), closes [#24](https://github.com/evenchange4/hsu-scripts/issues/24)
+- chore(deps): update dependency prettier to v1.16.1 (#25) ([8842445](https://github.com/evenchange4/hsu-scripts/commit/8842445)), closes [#25](https://github.com/evenchange4/hsu-scripts/issues/25)
+- chore(deps): update dependency prettier to v1.16.2 (#31) ([2c713b3](https://github.com/evenchange4/hsu-scripts/commit/2c713b3)), closes [#31](https://github.com/evenchange4/hsu-scripts/issues/31)
+- fix(deps): update dependency eslint-config-prettier to v4 (#29) ([3466488](https://github.com/evenchange4/hsu-scripts/commit/3466488)), closes [#29](https://github.com/evenchange4/hsu-scripts/issues/29)
+- docs(CHANGELOG): release 1.0.2 ([860cc1f](https://github.com/evenchange4/hsu-scripts/commit/860cc1f))
+- docs(README): add graphql.macro to example ([c2bd845](https://github.com/evenchange4/hsu-scripts/commit/c2bd845))
+- docs(README): add https://github.com/evenchange4/michaelhsu ([0103dee](https://github.com/evenchange4/hsu-scripts/commit/0103dee))
+- docs(README): add react-intl.macro to example ([a5c8be7](https://github.com/evenchange4/hsu-scripts/commit/a5c8be7))
 
 ## <small>1.0.2 (2019-01-08)</small>
 
