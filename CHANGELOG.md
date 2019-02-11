@@ -1,4 +1,16 @@
-## Unreleased (2019-01-31)
+## Unreleased (2019-02-11)
+
+## <small>1.0.5 (2019-02-11)</small>
+
+- 1.0.5 ([484c1c9](https://github.com/evenchange4/hsu-scripts/commit/484c1c9))
+- chore(deps): update dependency eslint to v5.13.0 (#36) ([3fd1fc1](https://github.com/evenchange4/hsu-scripts/commit/3fd1fc1)), closes [#36](https://github.com/evenchange4/hsu-scripts/issues/36)
+- chore(deps): update dependency flow-bin to v0.92.1 (#35) ([9a2cf99](https://github.com/evenchange4/hsu-scripts/commit/9a2cf99)), closes [#35](https://github.com/evenchange4/hsu-scripts/issues/35)
+- chore(deps): update dependency jest to v24.1.0 (#38) ([54cca38](https://github.com/evenchange4/hsu-scripts/commit/54cca38)), closes [#38](https://github.com/evenchange4/hsu-scripts/issues/38)
+- chore(deps): update dependency lint-staged to v8.1.3 (#37) ([df1eb6b](https://github.com/evenchange4/hsu-scripts/commit/df1eb6b)), closes [#37](https://github.com/evenchange4/hsu-scripts/issues/37)
+- chore(deps): update dependency prettier to v1.16.4 (#34) ([6028a31](https://github.com/evenchange4/hsu-scripts/commit/6028a31)), closes [#34](https://github.com/evenchange4/hsu-scripts/issues/34)
+- chore(node): use node 11.9.0 & yarn 1.13.0 ([bdf2c2b](https://github.com/evenchange4/hsu-scripts/commit/bdf2c2b))
+- fix(deps): update dependency eslint-plugin-react-hooks to v1 (#39) ([47a1eb3](https://github.com/evenchange4/hsu-scripts/commit/47a1eb3)), closes [#39](https://github.com/evenchange4/hsu-scripts/issues/39)
+- docs(CHANGELOG): release 1.0.4 ([9259fcd](https://github.com/evenchange4/hsu-scripts/commit/9259fcd))
 
 ## <small>1.0.4 (2019-01-31)</small>
 
