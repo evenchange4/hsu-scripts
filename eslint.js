@@ -36,6 +36,7 @@ module.exports = {
       'error',
       { allowRequiredDefaults: true },
     ],
-    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/rules-of-hooks': 2,
+    'react-hooks/exhaustive-deps': 1,
   },
 };
