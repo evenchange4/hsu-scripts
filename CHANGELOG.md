@@ -1,4 +1,21 @@
-## Unreleased (2019-02-11)
+## Unreleased (2019-02-22)
+
+## <small>1.0.6 (2019-02-22)</small>
+
+- 1.0.6 ([c14d052](https://github.com/evenchange4/hsu-scripts/commit/c14d052))
+- chore(deps): ncu update & flow-typed update ([2c9a9f6](https://github.com/evenchange4/hsu-scripts/commit/2c9a9f6))
+- chore(deps): ncu update & use node 11.10.0 ([d26f481](https://github.com/evenchange4/hsu-scripts/commit/d26f481))
+- chore(deps): update dependency codecov to v3.2.0 (#41) ([b6776f8](https://github.com/evenchange4/hsu-scripts/commit/b6776f8)), closes [#41](https://github.com/evenchange4/hsu-scripts/issues/41)
+- chore(deps): update dependency conventional-changelog-cli to v2.0.12 (#45) ([2ecaf47](https://github.com/evenchange4/hsu-scripts/commit/2ecaf47)), closes [#45](https://github.com/evenchange4/hsu-scripts/issues/45)
+- chore(deps): update dependency eslint to v5.14.0 (#46) ([541feab](https://github.com/evenchange4/hsu-scripts/commit/541feab)), closes [#46](https://github.com/evenchange4/hsu-scripts/issues/46)
+- chore(deps): update dependency eslint to v5.14.1 (#47) ([6078e55](https://github.com/evenchange4/hsu-scripts/commit/6078e55)), closes [#47](https://github.com/evenchange4/hsu-scripts/issues/47)
+- chore(deps): update dependency flow-bin to v0.93.0 (#42) ([48ca835](https://github.com/evenchange4/hsu-scripts/commit/48ca835)), closes [#42](https://github.com/evenchange4/hsu-scripts/issues/42)
+- chore(deps): update dependency lint-staged to v8.1.4 (#43) ([1835b46](https://github.com/evenchange4/hsu-scripts/commit/1835b46)), closes [#43](https://github.com/evenchange4/hsu-scripts/issues/43)
+- fix(deps): update dependency eslint-plugin-react-hooks to v1.0.2 (#44) ([7855188](https://github.com/evenchange4/hsu-scripts/commit/7855188)), closes [#44](https://github.com/evenchange4/hsu-scripts/issues/44)
+- fix(deps): update dependency eslint-plugin-react-hooks to v1.2.0 (#48) ([665b856](https://github.com/evenchange4/hsu-scripts/commit/665b856)), closes [#48](https://github.com/evenchange4/hsu-scripts/issues/48)
+- fix(deps): update dependency yargs to v13 (#40) ([36f7baf](https://github.com/evenchange4/hsu-scripts/commit/36f7baf)), closes [#40](https://github.com/evenchange4/hsu-scripts/issues/40)
+- docs(CHANGELOG): release 1.0.5 ([0c85c9d](https://github.com/evenchange4/hsu-scripts/commit/0c85c9d))
+- docs(LICENSE): 2019 ([da7787e](https://github.com/evenchange4/hsu-scripts/commit/da7787e))
 
 ## <small>1.0.5 (2019-02-11)</small>
 
