@@ -157,7 +157,7 @@ For more information go to https://github.com/rpl/flow-coverage-report
 
 ## Development
 
-- node 11.9.0
+- node 11.10.0
 - yarn 1.13.0
 
 ```bash
