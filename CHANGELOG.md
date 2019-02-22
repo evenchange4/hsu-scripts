@@ -1,5 +1,11 @@
 ## Unreleased (2019-02-22)
 
+## <small>1.0.7 (2019-02-22)</small>
+
+- 1.0.7 ([59bc6af](https://github.com/evenchange4/hsu-scripts/commit/59bc6af))
+- feat(react): add new hooks new rule ([8be1f9f](https://github.com/evenchange4/hsu-scripts/commit/8be1f9f))
+- docs(CHANGELOG): release 1.0.6 ([8e80c26](https://github.com/evenchange4/hsu-scripts/commit/8e80c26))
+
 ## <small>1.0.6 (2019-02-22)</small>
 
 - 1.0.6 ([c14d052](https://github.com/evenchange4/hsu-scripts/commit/c14d052))
