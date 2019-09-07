@@ -56,7 +56,7 @@
     "flow-copy-source": "^2.0.3",
     "flow-coverage-report": "^0.6.1",
     "rimraf": "^2.6.3",
-    "yargs": "^13.2.1"
+    "yargs": "^14.0.0"
   },
   "devDependencies": {
     "@babel/node": "7.2.2",
