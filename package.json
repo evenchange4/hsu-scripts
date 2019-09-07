@@ -55,7 +55,7 @@
     "execa": "^1.0.0",
     "flow-copy-source": "^2.0.3",
     "flow-coverage-report": "^0.6.1",
-    "rimraf": "^2.6.3",
+    "rimraf": "^3.0.0",
     "yargs": "^13.2.1"
   },
   "devDependencies": {
